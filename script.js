@@ -36,7 +36,10 @@ function init() {
 		|| navigator.userAgent.match(/Windows Phone/i)) {
 		movimiento.innerText = "Para moverte, arrastra de izquierda a derecha."
 		document.getElementById("aboutText").style.fontSize = "5vw";
-
+		document.getElementById("dos").style.width = "150vw";
+		document.getElementById("tres").style.width = "150vw";
+		document.getElementById("cuatro").style.width = "150vw";
+		document.getElementById("cinco").style.width = "150vw";
 		document.getElementById("outer").style.overflowX = "scroll";
 		document.getElementById("outer").style.overflowY = "auto";
 		
