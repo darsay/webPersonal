@@ -25,7 +25,7 @@ overflow-y: hidden;
 }
 
 .one {
-  position: center;
+  position: relative;
 
   width: 100vw;
 }
