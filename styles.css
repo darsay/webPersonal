@@ -25,28 +25,32 @@ overflow-y: hidden;
 }
 
 .one {
-  position: relative;
+  position: center;
 
   width: 100vw;
 }
 
 .two{
-  width: 50vw;
+  position: center;
+  width: 100vw;
   height: 100vh;
 }
 
 .three{
-  width: 50vw;
+  position: center;
+  width: 100vw;
   height: 100vh;
 }
 
 .four{
-  width: 50vw;
+  position: center;
+  width: 100vw;
   height: 100vh;
 }
 
 .five{
-  width: 50vw;
+  position: center;
+  width: 100vw;
   height: 100vh;
 }
 
