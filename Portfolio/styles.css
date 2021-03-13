@@ -1,0 +1,200 @@
+body {
+margin: 0;
+padding: 0;
+overflow-y: hidden;
+}
+.slide {
+  width: 150vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 600vw;
+  height: 100vh;
+  background: url("assets/bkg2.png");
+  background-size: auto 100vh;
+  background-repeat: repeat-x;
+  margin-bottom: -5%;
+
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden;
+
+}
+
+.one {
+  position: relative;
+
+  width: 100vw;
+}
+
+.two{
+  width: 50vw;
+  height: 100vh;
+}
+
+.three{
+  width: 50vw;
+  height: 100vh;
+}
+
+.four{
+  width: 50vw;
+  height: 100vh;
+}
+
+.five{
+  width: 50vw;
+  height: 100vh;
+}
+
+.hueco{
+  width: 30vw;
+}
+
+.perfil{
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  margin-left: -10%;
+  margin-top: 2%;
+}
+
+.fotoAbout{
+  float:right;
+  width: 30%;
+  height: auto;
+}
+
+.yop{
+  background-image: url("assets/yopPixel.gif");
+  width: 15vw;
+  height: 20vh;
+  position: absolute;
+  bottom: 0;
+  left: 10vw;
+  z-index: 9;
+  top:67.5vh;
+  background-size: auto 12vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+
+.name{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 6vw;
+  color: white;
+  text-shadow: 4px 2px 0 rgb(68, 68, 68);
+  margin-left: 2vw;
+  animation-name: nombre;
+  animation-duration: 6s;
+}
+
+.movimiento{
+  font-size: 3vw;
+}
+
+
+
+.about{
+  width: 55vw;
+  height: 50vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 2vh;
+  margin-right: 5%;
+  word-wrap: break-word;
+  min-height: 100pt;
+  margin: auto;
+  margin-top:3%;
+  
+}
+
+.about > p{
+  font-size: 2vw;
+  padding: 3%;
+  margin:0;
+
+  margin-left: 0%;
+  margin-right: 5%;
+  padding: 2vw;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  border: 1vh solid #434442;
+  width: 50vw;
+  margin-top: 0%;
+  max-height: 40vh;
+  float: left;
+}
+
+.about > strong{
+  font-size: 3vh;
+}
+
+.about > ul{
+  font-size: 2vw;
+  padding-left: 10%;
+  margin:0;
+
+  margin-left: 0%;
+  margin-right: 5%;
+  padding-top: 2%;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  border: 1vh solid #434442;
+  width: 50vw;
+  margin-top: 0%;
+  max-height: 40vh;
+
+ 
+}
+
+li{
+  margin: 30px 0;
+}
+
+
+.outer-wrapper {
+  margin: 0;
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dcdada;
+  border-radius: 150px;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius:  150px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius:  150px;
+}
