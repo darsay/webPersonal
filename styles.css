@@ -10,7 +10,7 @@ overflow-y: hidden;
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 600vw;
+  width: 700vw;
   height: 100vh;
   background: url("assets/bkg2.png");
   background-size: auto 100vh;
