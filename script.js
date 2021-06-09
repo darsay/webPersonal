@@ -50,7 +50,7 @@ function init() {
 
 		for (var i = 0; i < textos.length; i++) {
 			textos[i].style.width = "80vw";
-			textos[i].style.fontSize = "30vw"
+			textos[i].style.fontSize = "3vw"
 		  }
 
 	}
