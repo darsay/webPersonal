@@ -56,7 +56,7 @@ function init() {
 
 		for (var i = 0; i < titulos.length; i++) {
 			titulos[i].style.width = "80vw";
-			titulos[i].style.fontSize = "5vw"
+			titulos[i].style.fontSize = "4vw"
 		}
 
 	}
