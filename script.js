@@ -45,7 +45,7 @@ function init() {
 		document.getElementById("siete").style.width = "150vw";
 		document.getElementById("outer").style.overflowX = "scroll";
 		document.getElementById("outer").style.overflowY = "auto";
-		document.getElementById("fast").style.width = "100vw";
+		document.getElementById("fast").remove();
 		document.getElementById("viajeId").style.fontSize = "4vw";
 
 		var icons = document.getElementsByClassName("icon");
