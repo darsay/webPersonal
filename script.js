@@ -47,11 +47,17 @@ function init() {
 		document.getElementById("fast").remove();
 		
 		var textos = document.getElementsByClassName("aboutText");
+		var titulos = document.getElementsByClassName("tituloProj");
 
 		for (var i = 0; i < textos.length; i++) {
 			textos[i].style.width = "80vw";
 			textos[i].style.fontSize = "3vw"
-		  }
+		}
+
+		for (var i = 0; i < titulos.length; i++) {
+			titulos[i].style.width = "80vw";
+			titulos[i].style.fontSize = "5vw"
+		}
 
 	}
 
