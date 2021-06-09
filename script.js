@@ -35,13 +35,20 @@ function init() {
 		|| navigator.userAgent.match(/BlackBerry/i)
 		|| navigator.userAgent.match(/Windows Phone/i)) {
 		movimiento.innerText = "Para moverte, arrastra de izquierda a derecha."
+		document.getElementById("uno").style.width = "140vw";
 		document.getElementById("aboutText").style.fontSize = "5vw";
 		document.getElementById("dos").style.width = "150vw";
 		document.getElementById("tres").style.width = "150vw";
 		document.getElementById("cuatro").style.width = "150vw";
 		document.getElementById("cinco").style.width = "150vw";
+		document.getElementById("seis").style.width = "150vw";
+		document.getElementById("siete").style.width = "150vw";
 		document.getElementById("outer").style.overflowX = "scroll";
 		document.getElementById("outer").style.overflowY = "auto";
+		document.getElementById("fast").style.width = "100vw";
+		document.getElementById("viajeId").style.fontSize = "4vw";
+
+		var icons = document.getElementsByClassName("icon");
 		
 		var textos = document.getElementsByClassName("aboutText");
 
@@ -49,6 +56,10 @@ function init() {
 			textos[i].style.width = "80vw";
 			textos[i].style.fontSize = "35pt"
 		  }
+
+		for (var i = 0; i<icons.length; i++){
+			icons[i].style.width = "10vw";
+		}
 	}
 
 	

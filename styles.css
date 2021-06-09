@@ -55,6 +55,18 @@ overflow-y: hidden;
   height: 100vh;
 }
 
+.six{
+  position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.seven{
+  position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 .hueco{
   width: 30vw;
 }
@@ -87,6 +99,19 @@ overflow-y: hidden;
   background-repeat: no-repeat;
   background-position: bottom;
 
+}
+
+#fast{
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  z-index: 9;
+  background-size: auto 12vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  
 }
 
 
@@ -140,7 +165,21 @@ overflow-y: hidden;
 
 .about > strong{
   font-size: 40pt;
+  font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+li h1 a{
+  font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: green;
+  font-size: 5vh;
+  margin-right: 10%;
+}
+
+li h1{
+  margin-right: 10%;
+}
+
+
 
 .about > ul{
   font-size: 2vw;
@@ -156,9 +195,7 @@ overflow-y: hidden;
   border: 1vh solid #434442;
   width: 50vw;
   margin-top: 0%;
-  max-height: 40vh;
-
- 
+  max-height: 40vh; 
 }
 
 li{
