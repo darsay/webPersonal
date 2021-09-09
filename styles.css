@@ -102,15 +102,21 @@ overflow-y: hidden;
 }
 
 #fast{
-  width: 100vw;
+
   height: 10vh;
   position: absolute;
-  bottom: 0;
-  margin-bottom: 0;
+  
+  top: 2vh;
+  margin-top: 0;
   z-index: 9;
   background-size: auto 12vh;
   background-repeat: no-repeat;
   background-position: bottom;
+  background-color: white;
+
+  border-radius: 10%;
+  float: left;
+  border: 0.5vw solid #434442;
   
 }
 
@@ -180,7 +186,6 @@ li h1{
 }
 
 
-
 .about > ul{
   font-size: 2vw;
   padding-left: 10%;
@@ -214,6 +219,12 @@ li{
   position: absolute;
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+
+.TituloProj{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #8955E0;
+
 }
 
 ::-webkit-scrollbar {

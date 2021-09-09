@@ -50,7 +50,7 @@ function init() {
 		var titulos = document.getElementsByClassName("tituloProj");
 
 		for (var i = 0; i < textos.length; i++) {
-			textos[i].style.width = "80vw";
+			textos[i].style.width = "80hw";
 			textos[i].style.fontSize = "3vw"
 		}
 
