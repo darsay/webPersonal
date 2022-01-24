@@ -84,6 +84,7 @@ overflow-y: hidden;
   float:right;
   width: 30%;
   height: auto;
+  border-radius: 25px;
 }
 
 .yop{
@@ -141,7 +142,7 @@ overflow-y: hidden;
 .about{
   width: 55vw;
   height: 50vh;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-top: 2vh;
   margin-right: 5%;
   word-wrap: break-word;
@@ -167,6 +168,13 @@ overflow-y: hidden;
   margin-top: 0%;
   max-height: 40vh;
   float: left;
+}
+
+.descriptiveImage{
+  float:right;
+  width: 50%;
+  height: auto;
+  border-radius: 25px;
 }
 
 .about > strong{
