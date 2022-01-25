@@ -1,174 +1,450 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <title>Ignacio Molina Gamedev</title>
-  
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ignacio Molina - Resume</title>
+	<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/74f358d455.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./assets/css/animate.css">
+	<link rel="stylesheet" href="./assets/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/normalize.css">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./assets/css/responsive.css">
+
+	<script src="./assets/js/jquery-1.12.4.min.js"></script>
 </head>
 
-<body>
-  <script src="script.js"></script>
-  <div class="outer-wrapper" id ="outer">
-
-    <div class="wrapper">
-
-      <div class="slide one" id="uno">
-        <p class="name"><strong>Ignacio Molina Casaus</strong></p>
-        <p class="name" >Game programmer</p>
-        <p class="name movimiento" id="moveText">Move using[<strong>↑</strong>] y [<strong>↓</strong>]or scrolling the mouse wheel.</p>
-      </div>
-      
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
-      <div class="slide two" id="dos">
-        <div class="about">
-          <strong style="padding: 2%; font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">ABOUT ME</strong>
-          <img src="assets/profile.png" class="perfil">
-          <p id="aboutText" class="aboutText"> <img src="assets/yowapo.jpeg" class="fotoAbout">Hi, my name is Ignacio Molina Casaus. Gaming has been my passion since I
-            was born, so I decided to
-            dedicate myself to help
-            make this industry better and
-            keep learning about myself
-            and my passion on this
-            journey.
-            
-            I also enjoy going to concerts and playing basketball.
-            
-          </p>
-          
-        </div>
-
-      </div>
-
+	<!--Start Hero Area-->
+	<div id="home" class="hero-area">
+			<div class="hero-bg bg-1">
+				<div class="d-table hero-area-wrapper">
+					<div class="d-table-cell hero-area-inner">
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-lg-9">
+									<h1>Ignacio Molina Casaus</h1>
+									<h6>Videogame Programmer</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!--End Hero Area-->
 
 
-      <div class="slide three" id = "tres">
-        <div class="about">
-          <strong style="padding: 2%; font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">SKILLS</strong>
-          <img src="assets/skills.png" class="perfil">
-          <ul class="aboutText">
-            <li>Experience developing games for Game Jams.</li>
-            <li>Fluent English level due to a 2 months scholarship in U.S.A.</li>
-            <li>Always open to learn new concepts and technologies</li>
-            <li>Confortable working with a multidisciplinary team.</li>
-          </ul>
-        </div>
+	<!--Start Main Menu Logo-->
+	<div class="menubar-area">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="" class="logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-      </div>
-
-
-      <div class="slide four" id = "cuatro">
-        <div class="about">
-          <strong style="padding: 2%; font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CORE COMPETENCIES</strong>
-          <img src="assets/knowledge.png" class="perfil">
-          <ul class="aboutText">
-              <li>Active experience in Unity and C#</li>
-              <li>Confortable with Java, Python and C++</li>
-              <li>C1 Advanced level certified by Cambridge</li>             
-              <li>Basic knowledge of Unreal Engine, Javascript, Html, Css and Phaser Framework</li>
-              <li>Knowledge of SQL and data management technologies.</li>
-              <li>Experience in Scrum and project management tools like Trello and HacknPlan.</li>
-              <li>Knowledge of game programming patterns</li>
-              <li>Experience working with SOLID principles.</li>
-          </ul>
-        </div>
-
-      </div>
-
-
-      <div class="slide five" id = "cinco" name="PROYECTOS">
-        <div class="about">
-          <strong style="padding: 2%; font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">PROJECTS</strong>
-          <img src="assets/projects.png" class="perfil">
-          <ul class="aboutText">
-              <li><h1 style="margin-bottom: 0%;"><a href="https://slow-heat-index.itch.io/block-dasher"  class="TituloProj">Block Dasher</a> <img src="assets/blockdash.png" class="descriptiveImage"></h1>
-              <br>
-              <p style="margin-top: 0%; padding: 0;">Puzzle game where yo play as Dashy, a little cube that has to save its world from non-cubical shapes.</p>
-              </li>
-              <li><h1 style="margin-bottom: 0%; font-size: 5vh; text-decoration: underline;" class="TituloProj" >Educational Game for Antequera's City Hall  <img src="assets/quizgual.png" class="descriptiveImage"></h1>
-                <br>
-                <p style="margin-top: 0%; padding: 0;">Currently developing a quiz game for little kids about gender equality education.</p>
-              </li>
-              <li><h1 style="margin-bottom: 0%;" class="TituloProj"><a href="https://github.com/darsay/PracticaIV" class="TituloProj">Design Patterns in Unreal Engine</a></h1>
-                <br>
-                <p style="margin-top: 0%; padding: 0;">Little prototype made for college in Unreal Engine where some of the most important videogame design patterns are used.</p>
-                </li>
-                <li><h1 style="margin-bottom: 0%;" class="TituloProj"><a href="https://github.com/darsay/Juegos-En-Red" class="TituloProj">Online Javascript Game</a></h1>
-                  <br>
-                  <p style="margin-top: 0%; padding: 0;">Online videogame made for college programmed in Phaser Framework creating and managing a server using API REST and web sockets.</p>
-                </li>
-                <li><h1 style="margin-bottom: 0%;" class="TituloProj"><a href="https://github.com/darsay/MariRun" class="TituloProj">Endless Runner for Android</a></h1>
-                  <br>
-                  <p style="margin-top: 0%; padding: 0;">This little game was a birthday present for a friend of mine developed in one week.</p>
-                </li>
-                
-          </ul>
-        </div>
-
-      </div>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="scrl-down nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="scrl-down nav-link" href="#about">About me</a>
+						</li>
+						<li class="nav-item">
+							<a class="scrl-down nav-link" href="#skill">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="scrl-down nav-link" href="#resume">resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="scrl-down nav-link" href="#testimonial">testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="scrl-down nav-link" href="#portfolio">portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="scrl-down nav-link" href="#contact">Contact me</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!--End Main Menu Logo-->
 
 
+	<!--Start Tartget-->
+	<div class="target-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="single-target-box">
+						<h1>personality</h1>
+						Calm, friendly, ambitious, and always open for a conversation!</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="single-target-box">
+						<h1>goals</h1>
+						Make my childhood dream of becoming a succesful game developer true </div>
+				</div>
+				<div class="col-lg-4">
+					<div class="single-target-box">
+						<h1>hobbies</h1>
+						Basketball, live concerts, cooking and of course, videogames! </div>
+				</div>
+			</div>
+			<!--End of row-->
+		</div>
+		<!--End of container-->
+	</div>
+	<!--End of Target area-->
+
+
+	<!--Start About Area-->
+	<div id="about" class="about-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-5 no-padding">
+					<div class="about-img">
+						<img src="./assets/img/about-bg.png" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="about-title">
+								<h1>Who Am I?</h1>
+								<p>Hi, my name is Ignacio Molina Casaus. Gaming has been my passion since I was born, so I decided to dedicate myself to help make this industry better and keep learning about myself and my passion on this journey.
+									</br>
+									</br>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<span style="font-size: 2em; color: #2ecc71"><i class="fas fa-flag-usa"></i></span>
+								<h2>Good English Level</h2>
+								<p>I've been in USA 2 months in an inmersion experience and got C1 title certified by Cambridge.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<span style="font-size: 2em; color: #2ecc71"><i class="fas fa-stopwatch"></i></span>
+								<h2>Game-Jam Enjoyer</h2>
+								<p>I always join a Game-Jam whenever I can.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<span style="font-size: 2em; color: #2ecc71"><i class="fas fa-brain"></i></span>
+								<h2>Open Minded</h2>
+								<p>Always open to learn new things from people that surrounds me.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<span style="font-size: 2em; color: #2ecc71"><i class="fas fa-users"></i></span>
+								<h2>Team Worker</h2>
+								<p>I'm confortable working with a multidisciplinary team.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--End of col lg 7-->
+			</div>
+			<!--End of row-->
+		</div>
+		<!--End of container Fluid-->
+	</div>
+	<!--End of About Area-->
+
+
+	<!--Start Skill-->
+	<div id="skill" class="skill-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="skillbar">
+						<h1>My Skills</h1>
+						<p>As a game programmer, I've learned many different technologies and I'm eager to learn many more and reach the next level in the ones I already know.</p>
+						<a href="https://github.com/darsay" class="btn skill-btn">Check my GitHub <i class="fa fa-github"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="skill-progress">
+						<p>Unity <span style="font-size: 2em"></span><i class="fab fa-unity"></i></span></p>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+								<p>95%</p>
+							</div>
+						</div>
+						<p>C#</p>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+								<p>90%</p>
+							</div>
+						</div>
+						<p>Python <span style="font-size: 2em"></span><i class="fab fa-python"></i></span></p>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+								<p>85%</p>
+							</div>
+						</div>
+						<p>C++</p>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+								<p>80%</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--End of col lg 6-->
+			</div>
+			<!--End of row-->
+		</div>
+		<!--End of container-->
+	</div>
+	<!--End of skill area-->
+
+
+	<!--Strat Resume-->
+	<div id="resume" class="resume-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 text-center">
+					<h1>CV</h1>
+					<p>If you're looking forward to download my CV, you can do it clicking the button below.</p>
+					<a href="./assets/IgnacioMolinaCasausCV.pdf" class="btn cmn-btn resume-btn">Download CV</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="resume-education">
+		<div class="container bottom-border">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="edu-detail-box">
+						<h1>My Education</h1>
+						<div class="single-edu">
+							<h3>Videogame Design and Development</h3>
+							<p class="edu-date"><span>King Juan Carlos University</span> / 2018 - 2022</p>
+							<p class="edu-summury">In this degree I've learned game development technologies and developed my programming skills.</p>
+						</div>
+						<div class="single-edu">
+							<h3>Master in Unity Game Programming in Udemy</h3>
+							<p class="edu-date"><span>Mariano Rivas, Master Devs</span> / 2019</p>
+							<p class="edu-summury">Course where I learned Unity fundamentals to begin my gamedev journey.</p>
+						</div>
+						<div class="single-edu">
+							<h3>High School Graduate</h3>
+							<p class="edu-date"><span>María Inmaculada School, Antequera</span> / 2010 - 2017</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="resume-education work-exp">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="edu-detail-box">
+						<div class="single-edu">
+							<h1>Work Experience</h1>
+							<h3>Unity Videogame Programmer</h3>
+							<p class="edu-date"><span>5th Element Gaming</span> / October 2021 - January 2022</p>
+							<p class="edu-summury">This was my first job, where I was in charge of programming the main gameplay loop, tools to build levels making the design team's job easier and developing different minigames.
+								The project was a phone game for a Netflix's kids show.
+							</p>
+						</div>
+						<div class="single-edu">
+							<h3>Game Programmer</h3>
+							<p class="edu-date"><span>Antequera City Hall</span> / Now</p>
+							<p class="edu-summury">Currently, I'm collaborating with Antequera's City Hall by developing an educational quiz game about gender equality for little children.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End of Resume-->
+
+<!--
+	<div id="testimonial" class="testimonial-area">
+		<div class="owl-carousel testimonial-slider">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 text-center">
+						<p>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</p>
+						<h4>John Stone</h4>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 text-center">
+						<p>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</p>
+						<h4>John Stone</h4>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 text-center">
+						<p>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</p>
+						<h4>John Stone</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+-->
+
+	<!--Start Portfolio-->
+	<div id="portfolio" class="portfolio-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 text-center">
+					<div class="protfolio-title">
+						<h1>portfolio</h1>
+						<p>This is the place where you can check everything I've done so far.</p>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio-container">
+				<div class="portfolio-content portfolio-filter games tech">
+					<div class="portfolio-menu">
+						<h3>Filter By Category</h3>
+						<ul>
+							<li data-filter="*">All</li>
+							<li data-filter=".games">Games</li>
+							<li data-filter=".tech">Technical Demos</li>
+						</ul>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items games">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-1">
+							<a href="https://slow-heat-index.itch.io/block-dasher"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items games">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-2">
+							<a href="https://darsay.itch.io/racepg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items games">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-3">
+							<a href="https://darsay.itch.io/plantuki"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items tech">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-4">
+							<a href="https://darsay.itch.io/lazor"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items games">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-5">
+							<a href="https://darsay.itch.io/geister"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items tech">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-6">
+							<a href="https://github.com/darsay/SimulacionTelaYSolidoDeformable"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items games tech">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-7">
+							<a href="https://darsay.itch.io/"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-content portfolio-items games tech">
+					<div class="portfolio-bg-items">
+						<div class="portfolio-bg protfolio-bg-8">
+							<a href="https://github.com/darsay?tab=repositories"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End of portfolio-->
 
 
 
-      <div class="slide six" id = "seis">
-        <div class="about">
-          <strong style="padding: 2%;">CONTACT ME.</strong>
-          <img src="assets/contact.png" class="perfil">
-          <ul class="aboutText">
-              <li>Mail: :molinanacho33@gmail.com</li>
-              <li>Github: <a href="https://github.com/darsay" font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif>https://github.com/darsay </a></li>
-              <li>Itch.io: <a href="https://darsay.itch.io/" font-family: lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif>https://darsay.itch.io/ </a></li>
-          </ul>
-        </div>
+	<!--Start Contact-->
+	<div id="contact" class="contact-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="contact-left">
+						<div class="contact-details">
+							<h1>Contact Me</h1>
+							<p>In case you're interested in me to take part of a new project, feel free to contact me and tell me what it's about.</p>
+						</div>
 
-      </div>
-
-      <div class="slide seven" id = "siete">
-        <div class="about">
-          <strong style="padding: 2%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WIP</strong>
-            <p>This web is still in development. Expect it to get bigger and prettier!</p>
-        </div>
-
-      </div>
-
-    </div>
-
-
-  </div>
-  
-  <div class="yop" id="yop"></div>
-
-  <div id="fast">
-    <strong style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 5%;  color: black; text-align: center;" id ="viajeId">Fast Travel.</strong>
-    <div style="position: sticky; margin-top:6%">
-      <div class = "icon" style="display: inline-block;">
-        <a href="#dos"><img src= "assets/profile.png" width="35vh" class = "icon"></a>
-      </div>
-      
-      <div style="display: inline-block;">
-        <a href="#tres"><img src= "assets/skills.png" width="35vh" class = "icon"></a>
-      </div>
-
-      <div style="display: inline-block;">
-        <a href="#cuatro"><img src= "assets/knowledge.png" width="35vh" class = "icon"></a>
-      </div>
-
-      <div style="display: inline-block;">
-        <a href="#cinco"><img src= "assets/projects.png" width="35vh" class = "icon"></a>
-      </div>
-
-      <div style="display: inline-block;">
-        <a href="#seis"><img src= "assets/contact.png" width="35vh" class = "icon"></a>
-      </div>
-
-    </div>
-
-  </div>
+						<div class="contact-mail">
+							<p><span>Email:</span>molinanacho33@gmail.com</p>
+							<p><span>Phone:</span>648508386</p>
+						</div>
+					</div>
+					<a href="mailto:molinanacho33@gmail.com"><button type="submit" class="btn submit-btn">Send me a mail</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--
+	<div class="footer-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="footer-social-links">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>-->
 
 
+
+	<script src="./assets/js/popper.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/owl.carousel.min.js"></script>
+	<script src="./assets/js/isotope.pkgd-3.0.4.min.js"></script>
+	<script src="./assets/js/masonry.pkgd.min-4.2.0.js"></script>
+	<!--	<script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>-->
+	<script src="./assets/js/main.js"></script>
 </body>
 
 </html>
