@@ -489,6 +489,10 @@ p.edu-summury {
 	background-image: url(./assets/GamesPics/github.jpeg);
 }
 
+.protfolio-bg-9 {
+	background-image: url(./assets/GamesPics/dresscode.gif);
+}
+
 .portfolio-container {
 	overflow: hidden;
 }
