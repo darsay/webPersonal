@@ -20,7 +20,7 @@ button:focus {
 }
 
 a:link a:active,
-a:visited,
+a:visited
 	{
 	text-decoration: none !important;
 }
