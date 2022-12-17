@@ -493,6 +493,10 @@ p.edu-summury {
 	background-image: url(./assets/GamesPics/dresscode.gif);
 }
 
+.protfolio-bg-10 {
+	background-image: url(./assets/GamesPics/atapame.png);
+}
+
 .portfolio-container {
 	overflow: hidden;
 }
