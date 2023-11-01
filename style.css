@@ -501,6 +501,10 @@ p.edu-summury {
 	background-image: url(./assets/GamesPics/crushcrush.png);
 }
 
+.protfolio-bg-12 {
+	background-image: url(./assets/GamesPics/ttrash.gif);
+}
+
 .portfolio-container {
 	overflow: hidden;
 }
